@@ -28,3 +28,32 @@ API made using Node.js, Express.js, and MongoDB
 5. Run development server
    npm run server
 7. Use the API in any  API testing tool
+
+
+
+
+
+# BookStore API Documentation
+
+### 1. Users
+
+| Method/URI                | Description                                                                               | Access |
+| ------------------------- | ----------------------------------------------------------------------------------------- | ------ |
+| `POST` api/users/register | Register a user <br> **Body**: name, email, password                                      | Public |
+| `POST` api/users/login    | Login user and get token <br> **Body**: email, password                                   | Public |
+
+
+### 2. Books
+
+| Method/URI                 | Description                                                                                                              | Access               |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| `GET` api/books            | Get list of book which are in stock                                                                                      | Public               |
+| `GET` api/books/:bookId    | Get a book with ID <br> **Parameters**: bookId                                                                           | Public               |
+
+### 3. Purchases
+
+| Method/URI                         | Description                                                                              | Access  |
+| ---------------------------------- | ---------------------------------------------------------------------------------------- | ------- |
+| `POST` api/purchases               | Make a purchase <br> **Body**: bookId <br> **Headers**: x-auth-token                     | Private |
+
+
