@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "This is a demo work",
+  "main": "server.js",
+  "scripts": {
+  
+    "start": "node server.js",
+    "server": "nodemon server.js"
+    
+  },
+  "author": "Namitha S Nair",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.4.0",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.2"
+  }
+}
