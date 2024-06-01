@@ -16,8 +16,9 @@ API made using Node.js, Express.js, and MongoDB
    - A  user can signup by Name, Email and Password
    - For login, Email and Password_ is required
    - Authentication is done by JWT tokens
-  
-   - ### Guide to local setup
+
+
+    - ### Guide to local setup
 
 1. Clone this repository
   https://github.com/nami02091995/BookStoreDemo.git
